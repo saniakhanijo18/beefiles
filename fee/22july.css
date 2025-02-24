@@ -1,0 +1,16 @@
+.row{
+    border:2px solid red;
+}
+.col{
+    border: 2px solid blue;
+}
+.nav{
+    background-image:linear-gradient(to right,rgb(173, 86, 173),rgb(239, 205, 239)) ;
+}
+.nav-link{
+    color: #fff;
+    font-weight: 600;
+}
+.nav-link:hover{
+    background-color: aliceblue;
+}

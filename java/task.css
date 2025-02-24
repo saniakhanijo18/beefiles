@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    document.getElementid
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left h1 {
+    margin: 0;
+}
+
+.nav-right {
+    font-size: 18px;
+}
+
+#timer {
+    font-weight: bold;
+}
+
+.content {
+    margin: 20px;
+    text-align: center;
+} 
+
+h2 {
+    color: #333;
+}
+.question-form button{
+    padding:10px 20px;
+     m
+
+
+}

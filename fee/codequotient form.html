@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeQuotient</title>
+    <style>
+        body{
+            background-color: #efefef;
+            align-items: center;
+            display:flex;
+            justify-content: center;
+        }
+
+        .container{
+            padding: 30px;
+            width: 25%;
+            height: 50vh;
+            background-color: white;
+            justify-content: center;
+            box-shadow: 0px 4px 0px 4px whitesmoke;
+            align-items: center;
+        }
+        .logo{
+            height:6vh;
+            width: 6vh;
+            background-color: orangered;
+            color: white;
+            text-align: center;
+            font-size: 4vh;
+            border-radius: 10px;
+        }
+        .title{
+            font-size: 5vh;
+            text-align: center;
+        }
+        .cq{
+            display: flex;
+            justify-content: center;
+
+        }
+        .log{
+            font-size: 3vh;
+            text-align: center;
+        }
+        form{
+            /* border:2px solid black; */
+            margin-left: 20%;
+            
+        }
+        label{
+            color:orangered;
+
+        }
+        input{
+            width: 75%;
+            height:5vh;
+            border-color: #efefef;
+        }
+        button{
+           
+            background-color: orangered;
+            width:20vh;
+            height:5vh;
+            border-radius: 1vh;
+            margin-left: 18%;
+            color: white;
+            font-size: 2vh;
+        }
+        .forgot{
+            margin-right:15%;
+            /* border:2px solid black; */
+            color:orangered;
+            text-align:center;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="cq">
+            <div class="logo">
+                cq
+            </div>
+            <div class="title">
+                CodeQuotient
+            </div>
+        </div>
+        <br>
+        <div class="log">
+            Log into your account
+        </div>
+        <br>
+        <br>
+        <div class="form">
+            <form>
+                <label for="email">Email</label><br>
+                <input type="email" name="email" placeholder="Enter Email">
+                <br><br><br>
+                <label for="password">Password</label><br>
+                <input type="password" name="password" placeholder="Enter Password">
+            
+                <br><br><br>
+                <button>Login</button>
+                <br>
+                <div class="forgot">
+                    <u>Forgot Password?</u>
+                </div>
+            
+            </form>
+        </div>
+
+    </div>
+
+</body>
+</html>

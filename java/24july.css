@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    background-image: url('https://i.pinimg.com/originals/b8/fc/3b/b8fc3ba66e5132de6fad8ab2ecd7d2ef.gif');
+    background-size: 100% 100%; /* Scales the image to fit both width and height */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center;  /* Centers the image */
+}
+.container{
+    max-width: 700px;
+    margin: 50px auto;
+    background-color: rgb(222, 235, 244);
+    box-shadow: 0px 0px 10px rgb(0,0,0,0.1);
+    padding: 20px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+form{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+input{
+    width: 45%;
+    padding: 10px;
+    margin: 5px;
+}
+button{
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+table,th,td{
+    border: 1px solid #addd;
+}
+th,td{
+    text-align: center;
+    padding: 10px;
+}

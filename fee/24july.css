@@ -1,0 +1,21 @@
+.navbar{
+    background-image: linear-gradient(
+        to right,rgb(245, 216, 245),rgb(245, 98, 245));
+
+}
+.nav-link{
+    color: #fff;
+}
+.navbar-brand{
+    color: #fff;
+    font-size: 2rem;
+}
+#banner-section{
+    background-image: linear-gradient(
+        to right,rgb(245, 216, 245),rgb(245, 98, 245));
+}
+.fa-play{
+    color: #fff;
+    font-size: 4rem;
+    cursor: pointer;
+}

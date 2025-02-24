@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Form container */
+.form-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 100%;
+}
+
+/* Heading styling */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Label styling */
+label {
+    display: block;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 6px;
+}
+
+/* Input, textarea, and select fields styling */
+input, textarea, select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Textarea specific styles */
+textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Radio button and checkbox styling */
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+/* Flexbox layout for gender radio buttons */
+.gender-options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.gender-options label {
+    font-size: 14px;
+}
+
+/* Flexbox layout for preferences checkboxes */
+.preferences-options {
+    display: flex;
+    flex-direction: column;
+}
+
+.preferences-options label {
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+/* Select box styling */
+select {
+    background-color: #f9f9f9;
+}

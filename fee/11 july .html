@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid System in CSS</title>
+    <style>
+        .container{
+            width:90%;
+            /* height:60vh;  */
+            border:2px solid black;
+            margin:auto;
+            display:grid;
+
+            grid-template-rows: 150px 150px 150px;
+            row-gap: 10px;
+            column-gap: 10px;
+            grid-template-columns: 1fr 1fr 2fr;
+            
+        }
+        .box{
+            color:white;
+            font-size: 25px;
+        }
+        #box1{
+            background-color: blue;
+            grid-area: 3/3/4/4;
+            /* grid-row: 3/4;
+            grid-column:3/4; */
+
+             /* grid-row-start: 3; 
+             grid-row-end: 4; 
+             grid-column-start: 3;
+             grid-column-end: 4; */
+
+        }
+        #box2{
+            background-color: green;
+            grid-column: 1/-1;
+        }
+    #box3{
+            background-color: yellow;
+
+        }
+        #box4{
+            background-color: pink;
+        }
+        #box5{
+            background-color: black;
+        }
+        #box6{
+            background-color: brown;
+        }
+        #box7{
+            background-color: purple;
+        }
+        #box8{
+            background-color: burlywood;
+        }
+        #box9{
+            background-color: rebeccapurple;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+     <divclass class="box" id="box1">Box1</divclass>
+    <divclass class="box" id="box2"> Box2</divclass>
+    <divclass class="box" id="box3"> Box3</divclass>
+    <divclass class="box" id="box4"> Box4</divclass>
+    <divclass class="box" id="box5"> Box5</divclass>
+    <divclass class="box" id="box6"> Box6</divclass>
+    <divclass class="box" id="box7"> Box7</divclass>
+    <divclass class="box" id="box8"> Box8</divclass>
+    <divclass class="box" id="box9"> Box9</divclass>
+
+
+
+
+    </div>
+</body>
+</html>

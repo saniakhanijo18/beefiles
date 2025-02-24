@@ -1,0 +1,4 @@
+ If you want to change the state of a server,then it should be a POST request.
+2.. data r not visible in the url in post state.
+
+git remote add origin https://github.com/saniakhanijo18/back_end.git

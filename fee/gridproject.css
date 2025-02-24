@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width:100%;
+    border:2px solid red;
+    height:80vh;
+   background: linear-gradient(to right,black,green);
+   display:flex;
+   align-items: center;
+   justify-content: space-around;
+
+}
+.button{
+    width:15vw;
+    height:8vh;
+    background-color: orangered;
+    color: white;
+    border: none;
+    margin-top: 40px;
+    margin-left: 160px;
+
+}
+.box{
+    background-image:url(https://cdn.educba.com/academy/wp-content/uploads/2019/07/Versions-of-Html.png);
+  background-position:top;
+}
+.left{
+    width:40%;
+    border:2px solid blue;
+    height:50vh;
+    color: white;
+    padding: 20px;
+}
+.left h2{
+    margin-top: 20px;
+    text-align: center;
+    
+}
+.left p{
+    text-align: center;
+    margin-top: 20px;
+}
+.right{
+    width:55%;
+    border:2px solid rgb(18,20,34);
+    height:50vh; 
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:20px
+}
+ .box:hover{
+    background-position: bottom;
+    transition: all 1s ease-in-out;
+ }

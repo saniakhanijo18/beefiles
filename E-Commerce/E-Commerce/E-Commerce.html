@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Review System</title>
+    <link rel="stylesheet" href="E-Commerce.css">
+</head>
+<body>
+    <div class="review-container">
+        <div class="review-header">
+            <h1>Product Reviews</h1>
+        </div>
+        <form action="/post" method="POST" class="review-form" id="reviewForm">
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="rating">Rating (1-5)</label>
+                <input type="number" id="rating" min="1" max="5" placeholder="Rate the product" required>
+            </div>
+            <div class="form-group">
+                <label for="review">Your Review</label>
+                <textarea id="review" placeholder="Write your review here..." required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="recommend">Would you recommend this product?</label>
+                <select id="recommend" required>
+                    <option value="">Select an option</option>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <button type="submit">Submit Review</button>
+            </div>
+        </form>
+        <div class="reviews" id="reviews">
+        </div>
+    </div>
+
+</body>
+</html>

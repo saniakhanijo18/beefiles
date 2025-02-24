@@ -1,0 +1,26 @@
+.box{
+    width:80%;
+    height:90vh;
+    border:2px solid red;
+    display:flex;
+}
+.inner-box1{
+    width:20%;
+    height:15vh;
+    border:2px solid blue;
+
+}
+.inner-box2{
+    width:20%;
+    height:15vh;
+        border:2px solid blue;}
+        .inner-box3{
+            width:20%;
+            height:15vh;
+                border:2px solid blue;}
+  .inner-box4{
+    width:60%;
+    height:20vh;
+    border:2px
+
+  }      

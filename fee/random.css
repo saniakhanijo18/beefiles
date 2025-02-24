@@ -1,0 +1,16 @@
+.box{
+    width:100cm;
+    
+    height:50vh;
+    border:2px  solid blue;
+    assign:"left";
+    .contacts{
+        width:10cm;
+        height:15vh;
+        border:2px solid orange;
+        float= "right";
+         
+    }
+}
+
+    

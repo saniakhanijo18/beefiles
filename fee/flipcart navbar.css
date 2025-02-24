@@ -1,0 +1,98 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+.container{
+    width:100%;
+    height:30vh;
+    /*border:2px solid red;*/
+
+}
+nav{
+    width:100%;
+    height:29vh;
+   /* border:2px solid blue;*/
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    background-color: rgb(5, 208, 248);
+    
+
+}
+.logo{
+    width:25%;
+    height:10vh;
+    /*border:2px solid green;*/
+    display: flex;
+    justify-content:center;
+
+
+}
+span{
+    color:beige;
+}
+.fa-solid{
+    color:black;
+    font-size: 25px;
+}
+.search-bar{
+    width:30%;
+    height:10vh;
+    /*border:2px solid black;*/
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    background-color:white;
+}
+.search-bar input{
+    width:90%;
+    height:100%;
+    border:none;
+    font-size: 18px;
+
+    outline: none;
+}
+.fa-angle-down{
+    color: white;
+    font-size: 13px;
+    margin-left: 7px;
+}
+.fa-cart-shopping{
+    color:white;
+    font-size: 12px;
+}
+ul{
+    width:40%;
+    height:10vh;
+    /*border:2px solid orange;*/
+    display:flex;
+    justify-content:space-between;
+    align-items:center; /* spaces aa jaynge bich m*/
+    /*align-items:around; */
+    
+}
+ul li{
+    list-style-type:none;/*for remove dots,bool*/
+}
+body{
+    background-color:white;
+}
+.header{
+    width:100%;
+    height:15vh;
+   /* border:2px solid goldenrod;*/
+    box-shadow: 0px 4px 6px 4px whitesmoke;
+
+}
+#down-navbar{
+    width:100%;
+    height:15vh;
+    display:flex;
+   /* border:2px solid black;*/
+    justify-content: space-around;
+    align-items: center;
+}
+.down-1{
+    color: black;
+}
